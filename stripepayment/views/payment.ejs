@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Welcome to stripe payment class</h1>
+    <form action="payment" method="post">
+        <script src="//checkout.stripe.com/v2/checkout.js"
+        class="stripe-button"
+        data-key="<%= key %>"
+        data-amount="3000"
+        data-currency="inr"
+        data-locale="auto"
+        >
+
+        </script>
+    </form>
+</body>
+</html>
